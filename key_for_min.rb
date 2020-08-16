@@ -23,3 +23,6 @@ def key_for_min_value(name_hash)
 end
 
 puts key_for_min_value({:blake => 500, :ashley => 2, :adam => 1})
+hi = {:blake => 500, :ashley => 2, :adam => 1}
+puts hi.keys[0]
+puts hi.values[0]
